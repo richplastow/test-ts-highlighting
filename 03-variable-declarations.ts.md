@@ -3,8 +3,6 @@
 Here’s the first _destructuring_ example. 
 
 
-```typescript
-
     let destructured: number[] = [1, 2];
     let [first, second] = destructured;
 
@@ -29,7 +27,7 @@ Here’s the first _destructuring_ example.
         let {a, b = 1000} = wholeObject;
         return a + b;
     }
-```
+
 
 OK, let’s output the results!
 
